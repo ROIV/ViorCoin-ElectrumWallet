@@ -1,0 +1,17 @@
+# If you want electrum to appear in a linux app launcher ("start menu"), install this by doing:
+# sudo desktop-file-install electrum-vior.desktop
+
+[Desktop Entry]
+Comment=Lightweight ViorCoin Client
+Exec=electrum-vior %u
+GenericName[en_US]=Electrum-VIOR
+GenericName=Electrum-VIOR
+Icon=/usr/share/app-install/icons/electrum-vior.png
+Name[en_US]=Electrum ViorCoin Wallet
+Name=Electrum ViorCoin Wallet
+Categories=Network;
+StartupNotify=false
+Terminal=false
+Type=Application
+MimeType=x-scheme-handler/viorcoin
+

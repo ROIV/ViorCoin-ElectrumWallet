@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: Electrum-VIOR
+Version: 1.9.8.5
+Summary: Lightweight ViorCoin Wallet
+Home-page: http://electrum-vior.org
+Author: ecdsa
+Author-email: ecdsa@github
+License: GNU GPLv3
+Description: Lightweight ViorCoin Wallet
+Platform: UNKNOWN
