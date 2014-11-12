@@ -56,7 +56,7 @@ data_files += [
 setup(
     name="Electrum-VIOR",
     version=version.ELECTRUM_VERSION,
-    install_requires=['slowaes', 'ecdsa>=0.9', 'vior_scrypt'],
+    install_requires=['slowaes', 'ecdsa>=0.9', 'ltc_scrypt'],
     package_dir={
         'electrum_vior': 'lib',
         'electrum_vior_gui': 'gui',

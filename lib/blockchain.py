@@ -22,9 +22,9 @@ from util import user_dir, appdata_dir, print_error, print_msg
 from bitcoin import *
 
 try:
-    from vior_scrypt import getPoWHash
+    from ltc_scrypt import getPoWHash
 except ImportError:
-    print_msg("Warning: vior_scrypt not available, using fallback")
+    print_msg("Warning: ltc_scrypt not available, using fallback")
     from scrypt import scrypt_1024_1_1_80 as getPoWHash
 
 
